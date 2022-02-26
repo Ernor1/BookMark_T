@@ -820,6 +820,15 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
+.decoration-bookmark-red {
+  -webkit-text-decoration-color: #FA5959;
+          text-decoration-color: #FA5959;
+}
+
+.decoration-4 {
+  text-decoration-thickness: 4px;
+}
+
 .shadow-md {
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
@@ -868,6 +877,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(190 46 221 / var(--tw-bg-opacity));
 }
 
+.hover\:text-xl:hover {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .hover\:text-black:hover {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -876,6 +890,34 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-bookmark-purple:hover {
+  --tw-text-opacity: 1;
+  color: rgb(190 46 221 / var(--tw-text-opacity));
+}
+
+.hover\:underline:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.hover\:decoration-rose-400:hover {
+  -webkit-text-decoration-color: #fb7185;
+          text-decoration-color: #fb7185;
+}
+
+.hover\:decoration-bookmark-red:hover {
+  -webkit-text-decoration-color: #FA5959;
+          text-decoration-color: #FA5959;
+}
+
+.hover\:decoration-4:hover {
+  text-decoration-thickness: 4px;
+}
+
+.hover\:underline-offset-2:hover {
+  text-underline-offset: 2px;
 }
 
 .focus\:outline-none:focus {
