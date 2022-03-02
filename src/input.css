@@ -11,3 +11,10 @@
 .btn-white{
     @apply bg-bookmark-white text-black;
 }
+.scale_transform {
+    transform: scale(1);
+    transition: 0.2s all ease-in;
+}
+.scale_transform:hover{
+    transform: scale(1.2);
+}

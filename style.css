@@ -820,11 +820,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
-.decoration-bookmark-red {
-  -webkit-text-decoration-color: #FA5959;
-          text-decoration-color: #FA5959;
-}
-
 .decoration-4 {
   text-decoration-thickness: 4px;
 }
@@ -867,6 +862,15 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
+.scale_transform {
+  transform: scale(1);
+  transition: 0.2s all ease-in;
+}
+
+.scale_transform:hover{
+  transform: scale(1.2);
+}
+
 .hover\:bg-bookmark-white:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(247 247 247 / var(--tw-bg-opacity));
@@ -875,11 +879,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:bg-bookmark-purple:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(190 46 221 / var(--tw-bg-opacity));
-}
-
-.hover\:text-xl:hover {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
 }
 
 .hover\:text-black:hover {
@@ -905,19 +904,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:decoration-rose-400:hover {
   -webkit-text-decoration-color: #fb7185;
           text-decoration-color: #fb7185;
-}
-
-.hover\:decoration-bookmark-red:hover {
-  -webkit-text-decoration-color: #FA5959;
-          text-decoration-color: #FA5959;
-}
-
-.hover\:decoration-4:hover {
-  text-decoration-thickness: 4px;
-}
-
-.hover\:underline-offset-2:hover {
-  text-underline-offset: 2px;
 }
 
 .focus\:outline-none:focus {
